@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Deleting Quotes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        li {
+            font-size: 25px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Post Quote</h1>
+        <form>
+            <legend>New Quote</legend>
+            <input name="author" class="form-control" placeholder="Author" required>
+            <br/>
+            <textarea class="form-control" required name="text"></textarea>
+            <input type="Submit" class="btn btn-primary">
+        </form>
+        <h1>Quotes</h1>
+        <ul class='quote-list'></ul>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="client.js"></script>
+
+</body>
+
+</html>
